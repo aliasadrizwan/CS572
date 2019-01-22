@@ -1,0 +1,12 @@
+//Schema Design
+{ISBN: '', 
+author:['',''],
+tag:['',''],
+borrowed:{StudentId:,
+	Name:'',
+	returnDate: new Date('')}
+}
+
+
+//Insert API
+db.book.insert({ISBN: '111', author:['Ali','Asad'],tag:['IT','Mongo'],borrowed:{StudentId:101,Name:'Walmord',returnDate: new Date('Jan 28, 2019')}});
